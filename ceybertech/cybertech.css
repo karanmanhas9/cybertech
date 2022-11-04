@@ -1,0 +1,2800 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;700;800;900&display=swap');
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.container-xxl {
+    max-width: 1620px !important;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* contact-section */
+/* contact */
+.contact-section {
+    background: #00358A;
+    padding: 15px 0;
+}
+
+.contact-funding a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.contact-funding a:hover {
+    color: #fff;
+}
+
+a.chat {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+a.phone {
+    padding-left: 0px;
+}
+
+img.contact-image {
+    padding-right: 10px;
+}
+
+/* contact-end */
+/* social-icon */
+.social-icon {
+    width: 100%;
+    text-align: end;
+}
+
+.social-icon a {
+    color: #fff;
+    padding-right: 68px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.social-icon a:hover {
+    color: #fff;
+}
+
+a.social-icon4 {
+    padding-right: 0px;
+
+}
+
+/* social-icon-end */
+/* contact-section-end */
+/* navbar */
+
+.nav-bar {
+    padding: 20px 0;
+}
+
+.m-mv {
+    display: flex;
+}
+
+.m-nav {
+    justify-content: end;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon a {
+
+    padding-right: 30px;
+}
+
+button.navbar-toggler {
+    display: none;
+}
+
+div#navbarNav {
+    display: block;
+}
+
+ul.nav.ceyber-nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.ceyber-nav {
+    align-items: center;
+    padding: 0 101px 0 0;
+}
+
+.ceyber-nav .nav-item {
+    padding: 0 15px;
+}
+
+.ceyber-nav li a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.apointment2 {
+    display: none;
+}
+
+.apointment {
+    display: flex;
+}
+
+.apointment img {
+    width: 100%;
+
+}
+
+.ceyber-nav a {
+    color: #000 !important;
+}
+
+a.d-nav2 {
+    display: none;
+}
+
+a.d-nav1 {
+    display: block;
+}
+
+.nav-button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 36px;
+    gap: 10px;
+    border-radius: 40px;
+    text-decoration: none;
+
+    background: linear-gradient(92.85deg, #00A4E5 -4.29%, #00358A 117.27%);
+    box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.11);
+}
+
+.nav-button:hover {
+    background: linear-gradient(92.85deg, #00358A -4.29%, #00A4E5 117.27%) !important;
+    transition: 0.3s ease !important;
+    box-shadow: none !important;
+    color: #fff;
+}
+
+
+
+/* navbar-end */
+/* main */
+/* banner */
+.container {
+    max-width: 1220px !important;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+section.banner-section {
+    z-index: -1;
+}
+
+.banner-section {
+    background: url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-text {
+    padding: 17rem 0;
+}
+
+.banner-text h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.banner-text h2 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding-right: 12rem;
+
+}
+
+.banner-text .para {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    padding-right: 35rem;
+    margin-bottom: 25px;
+
+}
+
+.banner-button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px 36px;
+    gap: 10px;
+    border-radius: 40px;
+    margin-top: 12px;
+    background: linear-gradient(92.85deg, #00A4E5 -4.29%, #00358A 117.27%);
+    box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.11);
+    text-decoration: none;
+}
+
+.banner-button:hover {
+    background: linear-gradient(92.85deg, #00358A -4.29%, #00A4E5 117.27%);
+    transition: 0.3s ease;
+    box-shadow: none;
+    color: #fff;
+}
+
+
+section.client-companies {
+    clear: both;
+    margin: -80px 0 0 0;
+}
+
+.client-logo {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 34px rgba(0, 53, 138, 0.4);
+    border-radius: 10px;
+    padding: 25px;
+    z-index: 9999;
+}
+
+.col-md-4.logo-c {
+    text-align: center;
+}
+
+.client-gap {
+
+    align-items: center;
+}
+
+logo-c img {
+    width: 100%;
+}
+
+/* banner-end */
+/* about */
+.about-row {
+    margin-top: 11rem !important;
+}
+
+.about-ceyb-text {
+    padding: 10px 0px;
+}
+
+.few-word {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #121212;
+}
+
+.text-about h2 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #00358A;
+    margin-bottom: 38px;
+}
+
+.ceybertech-about-pra1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #121212;
+    margin-bottom: 30px;
+}
+
+.ceybertech-about-pra2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #121212;
+    padding: 0 40px 0 0;
+    margin-bottom: 25px;
+}
+
+.best {
+    display: flex;
+    margin-bottom: 13px;
+}
+
+.best-quality h3 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #00358A;
+}
+
+.best-quality p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #121212;
+}
+
+.best-solution h3 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #00358A;
+}
+
+.best-solution p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #121212;
+}
+
+.best-quality {
+    padding: 0 65px 0 0;
+}
+
+.best-solution {
+    padding: 0 65px 0 0;
+}
+
+.about-button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 36px;
+    gap: 10px;
+    background: linear-gradient(92.85deg, #00A4E5 -4.29%, #00358A 117.27%);
+    box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.11);
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+}
+
+.about-button:hover {
+    background: linear-gradient(92.85deg, #00358A -4.29%, #00A4E5 117.27%);
+    transition: 0.3s ease;
+    box-shadow: none;
+    color: #fff;
+}
+
+.three-images img {
+    width: 100%;
+}
+
+/* aboutend */
+/* main-contcact-section */
+.topbar-contact {
+    text-align: center;
+    margin: 110px 0 78px 0;
+}
+
+.topbar-contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #121212;
+}
+
+.topbar-contact h2 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #00358A;
+}
+
+.cntct-img {
+    position: relative;
+}
+
+.cntct-text {
+    position: absolute;
+    background: #FFFFFF;
+    padding: 19px;
+    box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.12);
+    top: 183px;
+    margin: 0 23px 0 23px;
+
+}
+
+.cntct-text p {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.btn-abt {
+    margin: 122px 0 0 0;
+    text-align: center;
+}
+
+.abt-button {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: inline-flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px 36px;
+    background: linear-gradient(92.85deg, #00A4E5 -4.29%, #00358A 117.27%);
+    box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.11);
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.abt-button:hover {
+    background: linear-gradient(92.85deg, #00358A -4.29%, #00A4E5 117.27%);
+    transition: 0.3s ease;
+    box-shadow: none;
+    color: #fff;
+}
+
+
+/* main-contcact-section-end */
+/* Our services and solutions */
+
+.Our-services {
+    background: url(./images/Our\ services\ and\ solutions\ \ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 110px 0 0 0;
+}
+
+
+
+.our-strenth1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.our-strenth1 h2 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.our-strenth2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.our-m {
+    margin: 64px 0px 104px 0px !important;
+}
+
+.services-and-solutions-box {
+    padding-bottom: 155px;
+}
+
+.gap {
+    gap: 50px !important;
+}
+
+.pos-img {
+    background: #00358A;
+    box-shadow: 0px 0px 33px rgba(0, 164, 229, 0.12);
+    padding: 79px 0px 32px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.pos-img:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 33px rgba(255, 255, 255, 0.12);
+    color: #00358A;
+    transition: 0.3s ease;
+}
+
+.pos-img h3 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
+.pos-img p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+
+.p-img1 {
+    position: absolute;
+    z-index: 1;
+    padding: 27px 31px;
+    border-radius: 50px;
+    top: 33%;
+    margin: 0 0 0px 64px;
+    background: linear-gradient(0deg, #00358A, #00358A), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+    box-shadow: 0px 0px 33px rgba(0, 164, 229, 0.12);
+}
+
+.pos-img:hover .p-img1 {
+    background: linear-gradient(0deg, #ffffff, #ffffff), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+
+}
+
+.pos-img:hover svg path {
+    fill: #00358A !important;
+}
+
+.p-img2 {
+    position: absolute;
+    z-index: 1;
+    padding: 27px 23px;
+    border-radius: 50px;
+    top: 33%;
+    margin: 0 0 0px 64px;
+    background: linear-gradient(0deg, #00358A, #00358A), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+    box-shadow: 0px 0px 33px rgba(0, 164, 229, 0.12);
+}
+
+.pos-img:hover .p-img2 {
+    background: linear-gradient(0deg, #ffffff, #ffffff), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+
+}
+
+.pos-img:hover svg path {
+    fill: #00358A !important;
+}
+
+.p-img3 {
+    position: absolute;
+    z-index: 1;
+    padding: 27px 26.98px 27px 27px;
+    border-radius: 50px;
+    top: 33%;
+    margin: 0 0 0px 64px;
+    background: linear-gradient(0deg, #00358A, #00358A), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+    box-shadow: 0px 0px 33px rgba(0, 164, 229, 0.12);
+}
+
+.pos-img:hover .p-img3 {
+    background: linear-gradient(0deg, #ffffff, #ffffff), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+
+}
+
+.pos-img:hover svg path {
+    fill: #00358A !important;
+}
+
+.p-img4 {
+    position: absolute;
+    z-index: 1;
+    padding: 27px 31px;
+    border-radius: 50px;
+    bottom: 53%;
+    margin: 0 0 0px 64px;
+    background: linear-gradient(0deg, #00358A, #00358A), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+    box-shadow: 0px 0px 33px rgba(0, 164, 229, 0.12);
+}
+
+.pos-img:hover .p-img4 {
+    background: linear-gradient(0deg, #ffffff, #ffffff), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+
+}
+
+.pos-img:hover svg path {
+    fill: #00358A !important;
+}
+
+.p-img5 {
+    position: absolute;
+    z-index: 1;
+    padding: 27px 20.1px 27px 20px;
+    border-radius: 50px;
+    bottom: 53%;
+    margin: 0 0 0px 64px;
+    background: linear-gradient(0deg, #00358A, #00358A), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+    box-shadow: 0px 0px 33px rgba(0, 164, 229, 0.12);
+}
+
+.pos-img:hover .p-img5 {
+    background: linear-gradient(0deg, #ffffff, #ffffff), url(blakewiszq3o8MteFM0unsplashjpg_61fbabc1317a9.jpg);
+
+}
+
+.pos-img:hover svg path {
+    fill: #00358A !important;
+}
+
+
+/* Our services and solutions end */
+/*  Appointment banner  */
+
+.scnd-banner {
+    margin-top: -7rem;
+    position: relative;
+}
+
+.appoinment-bg {
+    background: url(./images/you-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 35px;
+}
+
+.ab-content h2 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+}
+
+.bullet-point span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.bullet-point img {
+    padding: 12px 24px 12px 0px;
+}
+
+.ab-button-botn {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 35px;
+    gap: 10px;
+    color: #00A4E5;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 42px rgba(255, 255, 255, 0.35);
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.ab-button-botn p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #00A4E5;
+    margin: 0px;
+
+
+}
+
+.btn-ab-banner {
+    padding: 109px 0 0 0px;
+}
+
+.ab-img {
+    text-align: center;
+    padding: 55px 0 0 0;
+}
+
+
+/*  Appointment banner end  */
+/* the-company */
+.the-company {
+    margin: 10rem 0 0 0;
+}
+
+.cmpy-img img {
+    width: 100%;
+}
+
+.company-word {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.text-company {
+    padding: 43px 0 25px 31px;
+}
+
+.text-company h2 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #00358A;
+
+}
+
+.ceybertech-company {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+.company-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: inline-flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 36px;
+    gap: 10px;
+    background: linear-gradient(92.85deg, #00A4E5 -4.29%, #00358A 117.27%);
+    box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.11);
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.company-button:hover {
+    background: linear-gradient(92.85deg, #00358A -4.29%, #00A4E5 117.27%);
+    transition: 0.3s ease;
+    box-shadow: none;
+    color: #fff;
+}
+
+.btn-company {
+    padding: 0 0 0 30px;
+}
+
+/* work */
+.work {
+    margin: 110px 0;
+}
+
+.work-box1 h4 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #00A4E5;
+
+}
+
+.work-box1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 15px 0 0 0;
+}
+
+.work-box1 {
+    background: #ccedfa;
+    padding: 105px 45px !important;
+    position: relative;
+
+}
+
+.work-box1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 3300px;
+    height: 100%;
+    background: #ccedfa;
+    z-index: -1;
+}
+
+.work-box2 {
+    background: #EEEE;
+    text-align: center;
+    padding: 89px 52px !important;
+
+}
+
+.work-box2:hover {
+    background: linear-gradient(130.17deg, #00358A -11.08%, #00A4E5 109.17%);
+    transition: 0.3s ease;
+    transform: scale(1.03);
+}
+
+.work-box2:hover svg path {
+    fill: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box2 h4 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #00A4E5;
+    margin: 20px 0 0 0;
+}
+
+.work-box2:hover h4 {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 8px 0 0 0;
+
+}
+
+.work-box2:hover p {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box3 {
+    background: #eee;
+    text-align: center;
+    padding: 89px 52px !important;
+
+}
+
+.work-box3:hover {
+    background: linear-gradient(130.17deg, #00358A -11.08%, #00A4E5 109.17%);
+    transition: 0.3s ease;
+    transform: scale(1.03);
+
+}
+
+.work-box3:hover svg path {
+    fill: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box3 h4 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #00A4E5;
+    margin: 20px 0 0 0;
+}
+
+.work-box3:hover h4 {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 8px 0 0 0;
+    color: #000;
+}
+
+.work-box3:hover p {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box4 {
+    background: #EEEE;
+    text-align: center;
+    padding: 75px 24px 74px 23px !important;
+}
+
+.work-box4:hover {
+    background: linear-gradient(130.17deg, #00358A -11.08%, #00A4E5 109.17%);
+    transition: 0.3s ease;
+    transform: scale(1.03);
+}
+
+.work-box4:hover svg path {
+    fill: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box4 h4 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #00A4E5;
+    margin: 20px 0 0 0;
+}
+
+.work-box4:hover h4 {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 8px 0 0 0;
+}
+
+.work-box4:hover p {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box5 {
+    background: #EEEE;
+    text-align: center;
+    padding: 75px 24px 74px 23px !important;
+}
+
+.work-box5:hover {
+    background: linear-gradient(130.17deg, #00358A -11.08%, #00A4E5 109.17%);
+    transition: 0.3s ease;
+    transform: scale(1.03);
+}
+
+.work-box5:hover svg path {
+    fill: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box5 h4 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #00A4E5;
+    margin: 20px 0 0 0;
+}
+
+.work-box5:hover h4 {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box5 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 8px 0 0 0;
+}
+
+.work-box5:hover p {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.work-box6 h4 {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #00A4E5;
+    margin: 20px 0 0 0;
+}
+
+.work-box6 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 15px 0 0 0;
+}
+
+.work-box6 {
+    background: #ccedfa;
+    padding: 86px 23px !important;
+    position: relative;
+    text-align: center;
+
+}
+
+.work-box6:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 3300px;
+    height: 100%;
+    background: #ccedfa;
+    z-index: -1;
+}
+
+/* get in touch */
+.git-img {
+    background: url(./images/git.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+    border-radius: 10px;
+}
+
+.git-info p {
+    color: #FFFFFF;
+    font-family: "Exo", Sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+.git-info h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 10px 0 40px 0;
+}
+
+.btn-git {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    padding: 17px 36px;
+    gap: 10px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 42px rgba(255, 255, 255, 0.35);
+    border-radius: 40px;
+}
+
+.git-botn {
+    display: flex;
+    gap: 10px;
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+
+.git-botn {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #00A4E5;
+    margin: 0px;
+}
+
+.addr h3 {
+    font-family: "Exo", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 60px 0 19px 0;
+}
+
+.addr-p1 span {
+    color: #fff;
+}
+
+.addr-p2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.addr-p2 span {
+    color: #fff;
+}
+
+/* s-icon */
+.s-icon {
+    width: 100%;
+
+}
+
+.s-icon a {
+    color: #fff;
+    padding-right: 25px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+}
+
+.s-icon a:hover {
+    color: #fff;
+}
+
+
+/* s-icon-end */
+/* form */
+.contact-form {
+    margin: 0 0 110px 0;
+}
+
+.form-head {
+    padding: 0 0 0 60PX;
+    margin: 50PX 0;
+}
+
+.form-head h4 {
+    font-family: "Exo", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #00A4E5;
+    margin-bottom: 59px;
+}
+
+.cont-col {
+    width: 50%;
+    position: relative;
+}
+
+.cont-col input {
+    height: 60px;
+    width: 85%;
+    margin: 0px 0 30px 0;
+    border: solid 1px #666666;
+}
+
+.cont-col1 input {
+    height: 50px;
+    width: 93%;
+    margin: 0px 0 30px 0;
+}
+
+.get-in-touch form {
+    /* padding: 50px 0 0 0; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-col label {
+    position: absolute;
+    top: -13px;
+    left: 3%;
+    background: #ffffff;
+    z-index: 1;
+    padding: 0 13px;
+    color: #787878;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Poppins';
+}
+
+.cont-col label {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #787878;
+
+}
+
+.cont-col1 {
+    position: relative;
+    width: 100% !important;
+}
+
+.cont-col1 label {
+    position: absolute;
+    top: -16%;
+    left: 3%;
+    background: #ffffff;
+    z-index: 1;
+    padding: 0 13px;
+    color: #787878;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Poppins';
+
+}
+
+.cont-col1 label {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #787878;
+
+}
+
+/* .cont-col input {
+    height: 60px;
+    border-radius: 0;
+    /* margin: 0 0 10px; 
+    
+} */
+.cont-col1 label {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #787878;
+}
+
+.elementor-field {
+    height: 60px;
+    width: 93%;
+    margin: 0px 0 30px 0;
+    border: 1px solid #787878;
+}
+
+.cont-col textarea {
+    height: 99px;
+    width: 30.7rem;
+    margin: 0px 0 30px 0;
+}
+
+/* form end*/
+/* form button */
+.cont-button {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 36px;
+    gap: 10px;
+
+    background: linear-gradient(92.85deg, #00A4E5 -4.29%, #00358A 117.27%);
+    box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.11);
+    border-radius: 40px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.cont-button p {
+    margin: 0;
+}
+
+.contn {
+    text-align: center;
+    margin-top: 56px;
+}
+
+.cont-button:hover {
+    color: #fff;
+    background: linear-gradient(92.85deg, #00358A -4.29%, #00A4E5 117.27%);
+    transition: 0.3s ease;
+    box-shadow: none;
+}
+
+/* form button end */
+/* footer */
+.footer-section {
+    background: rgba(0, 164, 229, 0.1);
+    box-shadow: 0px -16px 84px rgba(0, 53, 138, 0.22);
+    padding: 138px 0 0 0;
+}
+
+.imp-link h3 {
+    font-family: "Exo", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #00358A;
+}
+
+.f-logo p {
+    color: #000;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.imp-link a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000;
+    text-decoration: none;
+    display: flow-root;
+    margin: 0 0 14px 0;
+}
+
+.fu-link a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000;
+    text-decoration: none;
+    display: flow-root;
+    margin: 0 0 14px 0;
+}
+
+.fu-link i {
+    color: #00358A !important;
+    padding: 0 10px 0 0;
+}
+
+.fu-link h3 {
+    font-family: "Exo", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #00358A;
+}
+
+.conin h3 {
+    font-family: "Exo", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #00358A;
+}
+
+.conin a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    display: flow-root;
+    text-decoration: none;
+    margin: 0 0 36px 0;
+}
+
+.conin i {
+    color: #00358A !important;
+    padding: 0 10px 0 0;
+}
+
+.copy-right p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #00358A;
+    text-align: center;
+    border-top: 1px solid rgba(0, 53, 138, 0.3);
+    padding-top: 12px;
+}
+
+.m-nav {
+    justify-content: end;
+}
+
+/* footer end */
+
+
+
+/* media query */
+
+@media only screen and (max-width: 1599px) {
+    .contact-section {
+        padding: 15px 20px;
+    }
+
+    .ceyber-nav li a {
+        font-size: 15px;
+    }
+
+    .nav-bar {
+        padding: 0px 20px;
+    }
+
+    .banner-text {
+        padding: 15rem 0;
+    }
+
+}
+
+@media only screen and (max-width: 1488px) {
+
+    .nav-button {
+        font-size: 14px;
+    }
+
+    .ceyber-nav .nav-item {
+        padding: 0 9px;
+    }
+
+    .ceyber-nav {
+        padding: 0px 50px 0 0;
+    }
+
+}
+
+@media only screen and (max-width: 1399px) {
+    .ceyber-nav .nav-item {
+        padding: 0px 8px;
+    }
+
+    .nav-icon a {
+        padding-right: 15px;
+    }
+
+    .contact-section {
+        padding: 15px 25px;
+    }
+
+    .nav-bar {
+        padding: 0px 25px;
+    }
+
+    .ceyber-nav li a {
+        font-size: 14px;
+    }
+
+    .ceyber-nav {
+
+        padding: 0 45px 0 0;
+    }
+
+    .nav-button {
+        font-size: 14px;
+        padding: 17px 20px;
+    }
+
+    .contact-funding a {
+        font-size: 14px;
+    }
+
+    .banner-text {
+        padding: 11rem 0;
+    }
+
+    .banner-button {
+        font-size: 14px;
+        padding: 17px 20px;
+    }
+
+    .client-logo {
+        padding: 27px 0;
+    }
+
+    section.client-companies {
+        margin: -70px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .nav-button {
+        font-size: 12px;
+        padding: 13px 20px;
+    }
+
+    a.nav-button img {
+        width: 13%;
+    }
+
+    .apointment img {
+        width: 90%;
+    }
+
+    .ceyber-nav {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        padding: 0 50px !important;
+    }
+
+    .social-icon a {
+        padding-right: 32px;
+    }
+
+    .contact-funding a {
+        font-size: 13px;
+    }
+
+    .social-icon a {
+        font-size: 18px;
+    }
+
+    a.navbar-brand img {
+        width: 80%;
+    }
+
+    .ceyber-nav .nav-item {
+        padding: 0px 5px;
+    }
+
+    a.nav-button img {
+        width: 20%;
+    }
+
+    .nav-icon a {
+        padding-right: 13px;
+    }
+
+    ul.nav.ceyber-nav {
+        margin: 0;
+    }
+
+    .nav-icon img {
+        height: 22px;
+    }
+
+    a.d-nav1 {
+        display: none;
+    }
+
+    a.d-nav2 {
+        display: block;
+    }
+
+    .nav-button {
+        font-size: 13px;
+        padding: 13px 19px;
+    }
+
+    .ceyber-nav li a {
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    a.nav-button img {
+        height: 22px;
+    }
+
+    /* banner */
+
+    .banner-text h6 {
+        font-size: 19px;
+    }
+
+    .banner-text h2 {
+        font-size: 52px;
+        padding-right: 27rem;
+    }
+
+    .banner-text .para {
+        font-size: 16px;
+        padding-right: 35rem;
+    }
+
+    .banner-button {
+        font-size: 13px;
+        padding: 13px 19px;
+    }
+
+    a.banner-button img {
+        height: 22px;
+    }
+
+    /* banner end */
+
+    .client-logo {
+        padding: 25px;
+    }
+
+    /* about */
+
+    .about-row {
+        margin-top: 6rem !important;
+    }
+
+    .three-images img {
+        width: 100%;
+    }
+
+    .few-word {
+        font-size: 14px;
+    }
+
+    .about-ceyb-text {
+        padding: 40px 0px;
+    }
+
+    .text-about h2 {
+        font-size: 31px;
+        margin-bottom: 6px;
+    }
+
+    .ceybertech-about-pra1 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .ceybertech-about-pra2 {
+        font-size: 14px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    .best {
+        margin-bottom: 5px;
+    }
+
+    .best-solution {
+        padding: 0 90px 0 0;
+    }
+
+    .best-quality h3 {
+        font-size: 20px;
+    }
+
+    .best-solution h3 {
+        font-size: 20px;
+    }
+
+    .best-quality p {
+        font-size: 12px;
+    }
+
+    .best-solution p {
+        font-size: 12px;
+    }
+
+    .about-button {
+        font-size: 14px;
+        padding: 15px 29px;
+    }
+
+    .about-button img {
+        height: 22px;
+    }
+
+    /* about end */
+
+    /* main-contcact-section */
+    .topbar-contact {
+        margin: 43px 0 40px 0;
+    }
+
+    .topbar-contact p {
+        font-size: 16px;
+    }
+
+    .topbar-contact h2 {
+        font-size: 34px;
+    }
+
+    .cntct-img img {
+        width: 100%;
+    }
+
+    .cntct-text p {
+        font-size: 19px;
+    }
+
+    .cntct-text {
+        top: 174px;
+        margin: 0 18px 0 18px;
+    }
+
+    .abt-button {
+        font-size: 14px;
+        padding: 15px 29px;
+    }
+
+    /* main-contcact-section end */
+
+    /* Our-services */
+
+    .pos-img {
+        padding: 90px 0px 32px 0px;
+    }
+
+    .p-img1 {
+        margin: 0 0 0px 35px;
+    }
+
+    .p-img2 {
+        margin: 0 0 0px 35px;
+    }
+
+    .p-img3 {
+        margin: 0 0 0px 35px;
+    }
+
+    .p-img4 {
+        margin: 0 0 0px 35px;
+    }
+
+    .p-img5 {
+        margin: 0 0 0px 35px;
+    }
+
+    .pos-img h3 {
+        font-size: 16px;
+    }
+
+    /* Our-services end */
+
+    /* scnd-banner */
+
+    .ab-content h2 {
+        font-size: 27px;
+    }
+
+    .bullet-point span {
+        font-size: 15px;
+    }
+
+    .bullet-point img {
+        padding: 8px 0px 11px 0px;
+    }
+
+    .btn-ab-banner {
+        padding: 94px 0 0 0px;
+    }
+
+    .ab-img {
+        padding: 45px 0 0 0;
+    }
+
+    .ab-button-botn {
+        font-size: 17px;
+        padding: 13px 19px;
+    }
+
+    .ab-button-botn img {
+        height: 22px;
+    }
+
+    /* scnd-banner end */
+
+    /* the-company */
+
+    .company-word {
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .text-company h2 {
+        font-size: 26px;
+    }
+
+    .ceybertech-company {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .company-button {
+        font-size: 14px;
+        padding: 15px 29px
+    }
+
+    .text-company {
+        padding: 0px 0 0px 31px;
+    }
+
+    .btn-company {
+        padding: 0px 0 0 30px;
+    }
+
+    /* the-company end */
+
+    .work-box1 {
+        padding: 105px 0px !important;
+    }
+
+    .work-box2 {
+
+        padding: 89px 0px !important;
+    }
+
+    .work-box3 {
+        padding: 89px 0px !important;
+    }
+
+    .work-box4 {
+        padding: 75px 0px 74px 0px !important;
+    }
+
+    .work-box5 {
+        padding: 75px 0px 74px 0px !important;
+    }
+
+    .cont-col textarea {
+        width: 24rem;
+    }
+
+    .form-head {
+        padding: 0 0 0 20PX;
+        /* margin: 0px; */
+    }
+
+    .git-info h2 {
+        font-size: 29px;
+        line-height: 44px;
+    }
+
+    .cont-col textarea {
+        margin: 0px;
+
+    }
+
+    .cont-col1 label {
+        font-size: 16px;
+    }
+
+    .cont-col label {
+        font-size: 16px;
+    }
+
+    .addr h3 {
+        font-size: 19px;
+        line-height: 27px;
+        margin: 40px 0 8px 0;
+    }
+
+    .btn-git {
+        font-size: 17px;
+        padding: 13px 19px;
+    }
+
+    .git-img {
+        padding: 5rem 41px;
+    }
+
+    .git-info p {
+        font-size: 17px;
+    }
+
+    .form-head h4 {
+        margin-bottom: 35px;
+    }
+
+    .footer-section {
+        padding: 70px 0 0 0;
+    }
+
+    .imp-link a {
+        margin: 0 0 5px 0;
+    }
+
+    .fu-link a {
+        margin: 0 0 5px 0;
+    }
+
+    .conin a {
+        margin: 0 0 12px 0;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .banner-text h2 {
+        padding-right: 20rem;
+    }
+
+    .ceyber-nav li a {
+        padding: 0px;
+        font-size: 11px;
+    }
+
+    .cntct-text p {
+        font-size: 17px;
+    }
+
+    .cntct-text {
+        top: 156px;
+    }
+
+    .cntct-text {
+        padding: 6px;
+    }
+}
+
+.about-ceyb-text {
+    padding: 0px;
+}
+
+.Our-services {
+    margin: 65px 0 0 0;
+}
+
+.our-strenth1 h2 {
+    font-size: 28px;
+}
+
+.our-strenth1 p {
+    font-size: 17px;
+}
+
+.our-strenth2 p {
+    font-size: 17px;
+}
+
+.pos-img {
+    padding: 77px 0px 32px 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        padding: 0 25px !important;
+    }
+
+    .social-icon a {
+        padding-right: 24px;
+    }
+
+    .ceyber-nav li a {
+        padding: 6px 0px;
+        font-size: 18px;
+    }
+
+    .apointment2 {
+        display: flex;
+        width: 60% !important;
+        justify-content: end;
+    }
+
+    .apointment {
+        display: none;
+    }
+
+    /* .nav-icon {
+        justify-content: center;
+    }         */
+    a.navbar-brand img {
+        height: 60px;
+    }
+
+    .contact-funding a {
+        font-size: 12px;
+    }
+
+    button.navbar-toggler {
+        display: flex;
+        width: 10% !important;
+        justify-content: end;
+        border: none !important;
+    }
+
+    button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    .button:focus-visible {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    div#navbarNav {
+        display: inline;
+    }
+
+    .banner-text h2 {
+        padding-right: 13rem;
+        font-size: 34px;
+        line-height: 51px;
+    }
+
+    .col-md-4.logo-c img {
+        width: 100%;
+    }
+
+    .few-word {
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    .text-about h2 {
+        font-size: 21px;
+        margin-bottom: 0px;
+    }
+
+    .ceybertech-about-pra1 {
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+
+    .about-ceyb-text {
+        padding: 0px;
+    }
+
+    .best-solution {
+        padding: 0px;
+    }
+
+    .cntct-text {
+        padding: 5px;
+        top: 106px;
+        margin: 0 11px;
+    }
+
+    .cntct-text p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .pos-img {
+        padding: 90px 0px 32px 0px;
+    }
+
+    .pos-img {
+        padding: 75px 0px 32px 0px;
+    }
+
+    .ab-content h2 {
+        font-size: 27px;
+    }
+
+    .btn-ab-banner {
+        text-align: center;
+        padding: 25px 0 0 0;
+    }
+
+    .bullet-point span {
+        font-size: 15px;
+    }
+
+    /* our */
+
+    .our-strenth1 h2 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .our-strenth2 p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .p-img1 {
+        margin: 0 0 0px 65px;
+        top: 240px;
+    }
+
+    .p-img2 {
+        margin: 0 0 0px 65px;
+        top: 240px;
+    }
+
+    .p-img3 {
+        margin: 0 0 0px 65px;
+        top: 240px;
+    }
+
+    .p-img4 {
+        margin: 0 0 0px 65px;
+        bottom: 295px;
+    }
+
+    .p-img5 {
+        margin: 0 0 0px 65px;
+        bottom: 295px;
+    }
+
+    /* our */
+    .text-company h2 {
+        font-size: 16px;
+
+    }
+
+    /* work */
+
+    .work-box1 {
+        padding: 73px 0px !important;
+
+    }
+
+    .work-box1 h4 {
+        font-size: 17px;
+        line-height: 9px;
+    }
+
+    .work-box2 {
+        padding: 71px 0px !important;
+    }
+
+    .work-box2 h4 {
+        font-size: 17px;
+        line-height: 9px;
+    }
+
+    .work-box3 {
+        padding: 59px 0px !important;
+    }
+
+    .work-box3 h4 {
+        font-size: 17px;
+        line-height: 9px;
+    }
+
+    .work-box4 {
+        padding: 28px 0px 28px 0px !important;
+    }
+
+    .work-box4 h4 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .work-box5 {
+        padding: 46px 0px !important;
+    }
+
+    .work-box5 h4 {
+        font-size: 18px;
+        line-height: 9px;
+    }
+
+    .work-box6 {
+        padding: 57px 0px 83px 0px !important;
+    }
+
+    .work-box6 h4 {
+        font-size: 18px;
+        line-height: 9px;
+    }
+
+    .git-botn {
+
+        background: none;
+        text-decoration: none;
+    }
+
+    .btn-git {
+        font-size: 17px;
+        padding: 13px 19px;
+    }
+
+    .git-info h2 {
+        font-size: 23px;
+        line-height: 34px;
+    }
+
+    .form-head {
+        padding: 0 0 0 20PX;
+        margin: 0px;
+    }
+
+    .cont-col textarea {
+        width: 19rem;
+    }
+
+    /* get in touch */
+    .contn {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    /* get in touch  end*/
+    /* footer */
+    .imp-link a {
+        margin: 0px;
+        line-height: 34px;
+    }
+
+    .conin a {
+        margin: 0px 0 11px 0;
+    }
+
+    .fu-link a {
+        margin: 0px;
+    }
+
+    div#navbarSupportedContent {
+        height: 0 !important;
+    }
+
+    ul.navbar-nav.mb-2.mb-lg-0.ceyber-nav {
+        background: #fff !important;
+    }
+
+    a.navbar-brand.m-0 {
+        width: 30% !important;
+    }
+
+    /* footer */
+}
+
+
+@media only screen and (max-width: 767px) {
+    .contact-section {
+        padding: 15px 19px;
+    }
+
+    .banner-text {
+        padding: 4rem 0 9rem 0;
+    }
+
+    .social-icon a {
+        padding-right: 10px;
+    }
+
+    .social-icon a {
+        font-size: 14px;
+    }
+
+    .contact-funding a {
+        font-size: 12px;
+        padding: 0px 13px
+    }
+
+    .banner-text h2 {
+        padding-right: 0rem;
+        font-size: 39px;
+    }
+
+    .banner-text .para {
+        font-size: 16px;
+        padding-right: 0rem;
+    }
+
+    .col-md-4.logo-c img {
+        width: auto;
+    }
+
+    img.banner-bottom-img1 {
+        padding: 19px 0;
+    }
+
+    img.banner-bottom-img2 {
+        padding: 19px 0;
+    }
+
+    img.banner-bottom-img3 {
+        padding: 19px 0;
+    }
+
+    .text-about h2 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 11px;
+    }
+
+    .few-word {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+
+    .ceybertech-about-pra1 {
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
+
+    .ceybertech-about-pra2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    .best-quality h3 {
+        margin: 9px 0;
+        font-size: 27px;
+    }
+
+    .best-quality p {
+        font-size: 14px;
+        padding: 0 32px 0 0;
+    }
+
+    .best-solution h3 {
+        margin: 9px 0;
+        font-size: 27px;
+    }
+
+    .best-solution p {
+        font-size: 14px;
+        padding: 0 32px 0 0;
+    }
+
+    .about-ceyb-text {
+        margin: 20px;
+    }
+
+    .topbar-contact {
+        margin: 40px 0 20px 0;
+    }
+
+    .topbar-contact h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .cntct-text p {
+        font-size: 17px;
+        line-height: 19px;
+    }
+
+    .cntct-text {
+        padding: 25px;
+        top: 260px;
+        margin: 0 28px;
+    }
+
+    .cntct-img img {
+        margin-bottom: 60px;
+    }
+
+    .btn-abt {
+        margin: 20px 0 0 0;
+
+    }
+
+    .Our-services {
+        margin: 55px 0 0 0;
+    }
+
+    .our-strenth1 h2 {
+        font-size: 32px;
+    }
+
+    .our-m {
+        margin: 56px 0px 0px 0px !important;
+    }
+
+    .our-strenth2 p {
+        margin: 0 0 112px 0px;
+    }
+
+    .p-img1 {
+        margin: 0 0 0px 30px;
+        top: 355px;
+    }
+
+    .p-img2 {
+        margin: 0 0 0px 30px;
+        top: 355px;
+    }
+
+    .p-img3 {
+        margin: 0 0 0px 30px;
+        top: 355px;
+    }
+
+    .p-img4 {
+        margin: 0 0 0px 30px;
+        bottom: 310px;
+    }
+
+    .p-img5 {
+        margin: 0 0 0px 30px;
+        bottom: 310px;
+    }
+
+    .ab-img {
+        padding: 0px 0 0 0;
+    }
+
+    .text-company {
+        padding: 0px;
+        margin: 45px 0 0 0;
+    }
+
+    .company-word {
+        font-size: 18px;
+        margin: 0px 0 12px 0;
+    }
+
+    .text-company h2 {
+        font-size: 26px;
+        line-height: 30px;
+        margin: 0 0 20px 0;
+    }
+
+    .ceybertech-company {
+        font-size: 18px;
+        margin-bottom: 22px;
+        line-height: 28px;
+    }
+
+    .btn-company {
+        padding: 0px;
+    }
+
+    .work {
+        margin: 50px 0;
+    }
+
+    .work-box4 {
+        margin: 0 0 25px 0;
+    }
+
+    .work-box5 {
+        margin: 0 0 25px 0;
+    }
+
+    .form-head {
+        padding: 0px;
+        margin: 50px 0 0 0;
+    }
+
+    .cont-col textarea {
+        width: 30.6rem;
+    }
+
+    .contact-form {
+        margin: 0 0 60px 0;
+    }
+
+    .cont-col {
+        width: 100%;
+
+    }
+
+    .cont-col1 input {
+        width: 85%;
+    }
+
+    .elementor-field {
+        width: 85%;
+    }
+
+    .cont-col textarea {
+        width: 28rem;
+    }
+
+    .footer-section {
+        padding: 50px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .contact-funding {
+        display: none;
+    }
+
+    a.d-nav2 {
+        display: none;
+    }
+
+    a.navbar-brand.m-0 {
+        width: 50% !important;
+    }
+
+    .apointment2 {
+        width: 35% !important;
+    }
+
+    button.navbar-toggler {
+        width: 15% !important;
+    }
+
+    .banner-button {
+        font-size: 13px;
+        padding: 17px 30px;
+    }
+
+    .about-row {
+        margin-top: 4rem !important;
+    }
+
+    .about-button {
+        font-size: 18px;
+        padding: 20px 30px;
+    }
+
+    .about-ceyb-text {
+        margin: 0px 0 50px 0;
+    }
+
+    .cntct-text {
+        padding: 25px;
+        top: 213px;
+        margin: 0 22px;
+    }
+
+    .abt-button {
+        font-size: 18px;
+        padding: 20px 30px;
+    }
+
+    .pos-img {
+        margin: 0 0 45px 0;
+    }
+
+    .p-img1 {
+        margin: 0px;
+        top: 21%;
+        left: 40%;
+    }
+
+    .p-img2 {
+        margin: 0px;
+        top: 35%;
+        left: 40%;
+    }
+
+    .p-img3 {
+        margin: 0px;
+        top: 49%;
+        left: 40%;
+    }
+
+    .p-img4 {
+        margin: 0px;
+        bottom: 32%;
+        left: 40%;
+    }
+
+    .p-img5 {
+        margin: 0px;
+        bottom: 18%;
+        left: 40%;
+    }
+
+
+    .ab-content h2 {
+        font-size: 24px;
+    }
+
+    .bullet-point img {
+        padding: 0px;
+    }
+
+    .appoinment-bg {
+        padding: 25px;
+    }
+
+    .ab-img {
+        text-align: left;
+
+    }
+
+    .btn-ab-banner {
+        text-align: left;
+        padding: 20px 0 0 0;
+    }
+
+    .the-company {
+        margin: 5rem 0 0 0;
+    }
+
+    .cont-col textarea {
+        width: 100%;
+    }
+
+    .cont-col input {
+        width: 100%;
+    }
+
+    .cont-col1 input {
+        width: 100%;
+    }
+
+    .elementor-field {
+        width: 100%;
+    }
+
+    .contn {
+        margin-top: 35px;
+    }
+
+    .f-logo img {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+
+    .apointment2 {
+        display: none;
+    }
+
+    .col-md-4.logo-c img {
+        width: 100%;
+    }
+
+    .text-about h2 {
+        font-size: 25px;
+    }
+
+    .best {
+        display: inline-block;
+        margin-bottom: 13px;
+    }
+
+    .cntct-img img {
+        margin-bottom: 100px;
+    }
+
+    .cntct-text {
+        padding: 19px 0px;
+        top: 49%;
+        margin: 0px 14px;
+    }
+
+    .abt-button {
+        font-size: 17px;
+        padding: 19px 30px;
+    }
+
+    .our-strenth1 h2 {
+        font-size: 25px;
+    }
+
+    .our-m {
+        margin: 30px 0px 0px 0px !important;
+    }
+
+
+    .p-img1 {
+        left: 35%;
+    }
+
+    .pos-img p {
+        font-size: 14px;
+        padding: 0 25px;
+    }
+
+    .p-img2 {
+        left: 35%;
+    }
+
+    .p-img3 {
+        left: 35%;
+    }
+
+    .p-img4 {
+        left: 35%;
+    }
+
+    .p-img5 {
+        left: 35%;
+    }
+
+    .appoinment-bg {
+        padding: 15px;
+    }
+
+    .ab-content h2 {
+        line-height: 34px;
+    }
+
+    .bullet-point span {
+        line-height: 30px;
+    }
+
+    .work-box1 {
+        padding: 73px 20px !important;
+    }
+
+    .work-box2 {
+        padding: 71px 20px !important;
+    }
+
+    .work-box3 {
+        padding: 59px 20px !important;
+    }
+
+    .work-box4 {
+        padding: 28px 20px 28px 20px !important;
+    }
+
+    .work-box5 {
+        padding: 46px 20px !important;
+    }
+
+    .work-box6 {
+        padding: 57px 20px 83px 20px !important;
+    }
+
+    .git-img {
+        padding: 34px 10px;
+    }
+
+    .contact-form {
+        margin: 0 0 40px 0;
+    }
+
+}
